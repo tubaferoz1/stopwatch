@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <style>
+        body{
+            
+            background: linear-gradient(to left,#607d8b,#e23cd7);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+    }
+
+    .wrap{
+            display:inline-block ;
+            min-width: 360px;
+            min-height: 150px;
+            padding: 50px 15px;
+            background-color: rgb(119, 232, 247);
+            box-shadow: 0 5px 25px #0000004a;
+            border-radius: 350px;
+            text-align: center;
+
+
+        }
+
+        .option a{
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+       
+        
+
+       
+    h1{
+        color: rgb(245, 22, 126)!important;
+        display: inline-block;
+        width: 100px;
+        background-color: white;
+    }
+    </style>
+    
+    <body>
+    
+        <div>
+            <h1>Stop Watch</h1>
+        </div>
+    <div  class="wrap">
+           <div  >
+               <h1 id="min">00</h1>
+               <h1 id="sec">00</h1>
+               <h1 id="msec">00</h1>
+           </div >
+           <div>
+            <button onclick="start()">Start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+        <script src="app.js"></script>
+</body>
+</html>
